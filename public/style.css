@@ -1,0 +1,125 @@
+html {
+  background-color: #141111;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #fff;
+  padding: 15px;
+}
+h1,
+h2 {
+  font-size: 50px;
+  font-family: "28days";
+  text-shadow: 5px 4px 7px rgba(37, 209, 207, 0.81);
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h1 {
+  text-decoration: underline;
+  padding: 0 10px;
+}
+
+/* BUTTONS ZONE */
+.filter {
+  display: flex;
+  margin: 20px auto;
+  justify-content: space-between;
+}
+
+.filter button.active {
+  background-color: aliceblue;
+}
+
+.filter img {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  border-right: 2px solid rgba(37, 209, 207, 0.81);
+  font-size: 40px;
+  background-color: #141111;
+  color: rgba(37, 209, 207, 0.81);
+  border-radius: 50%;
+  display: flex;
+  padding: 0;
+}
+
+.random-btn {
+  border: 2px solid rgba(37, 209, 207, 0.81);
+  border-radius: 0;
+  font-size: 30px;
+  margin: 30px auto 50px;
+  padding: 10px 20px;
+  box-shadow: 5px 5px 7px rgba(37, 209, 207, 0.81);
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.clear-random {
+  color: rgba(37, 209, 207, 0.81);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* COCKTAILS ZONE */
+
+.cocktails-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  margin: 0 auto;
+  justify-content: center;
+}
+.cock {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border: 2px rgba(37, 209, 207, 0.81) solid;
+  box-shadow: 5px 5px 7px rgba(37, 209, 207, 0.81);
+  margin: 10px;
+}
+
+.cock h3 {
+  font-size: 25px;
+}
+
+.price {
+  margin-top: 10px;
+  color: crimson;
+}
+
+.volume {
+  margin: 10px 0;
+}
+
+.favourite {
+  font-size: 50px;
+  color: rgba(37, 209, 207, 0.81);
+  position: absolute;
+  right: 20px;
+  top: 0;
+}
+
+.cock i {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 32px;
+}
+
+i.active {
+  color: rgba(37, 209, 207, 0.81);
+  text-shadow: 0 0 20px rgba(37, 209, 207, 0.81);
+}
