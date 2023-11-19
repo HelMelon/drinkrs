@@ -28,7 +28,7 @@ const useCocktailsStore = defineStore("CocktailsStore", {
     },
   },
   actions: {
-    getCocktailsFromBD() {
+    async getCocktailsFromBD() {
       const res = await fetch(this.apiUrl);
       this.cocktails = await res.json()
       this.cocktails.map(coc => ({...coc, isEditing: false }))
