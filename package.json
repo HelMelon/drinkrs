@@ -2,6 +2,7 @@
   "name": "drinkrs",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "preserve": "node src/api.js",
     "serve": "vue-cli-service serve",
