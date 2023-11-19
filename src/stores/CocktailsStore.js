@@ -28,11 +28,6 @@ const useCocktailsStore = defineStore("CocktailsStore", {
     },
   },
   actions: {
-    async getCocktailsFromBD() {
-      const res = await fetch(this.apiUrl);
-      this.cocktails = await res.json()
-      this.cocktails.map(coc => ({...coc, isEditing: false }))
-    },
     async makeFav(id) {
       const cocktail = this.cocktails.find((c) => c.id === id);
       cocktail.isFav = !cocktail.isFav;
