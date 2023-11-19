@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "preserve": "node api.js",
+    "preserve": "node src/api.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build"
   },
